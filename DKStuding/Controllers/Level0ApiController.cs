@@ -29,5 +29,11 @@ namespace DKStuding.Controllers
         {
             return x + y + z;
         }
+        
+        [HttpGet]
+        public int Mult2(int x, int y)
+        {
+            return x * y;
+        }
     }
 }
